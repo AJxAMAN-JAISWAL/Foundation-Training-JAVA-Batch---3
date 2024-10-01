@@ -48,7 +48,7 @@ public class Main {
 				default:
 					throw new InvalidChoiceException("Invalid choice please select a valid option");
 				}
-			} catch(InvalidAmountException | InsufficientFundsException | InvalidChoiceException | NullPointerException e){
+			} catch(InvalidAmountException | InsuffeicentFundException | InvalidChoiceException |NullPointerException e){
 				System.out.println(e.getMessage());
 			}
 		}
